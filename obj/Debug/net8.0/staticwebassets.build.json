@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4MWcCAa+39pT4RBY3Zc42VFOzQSioJW2CMPviedzAeE=",
+  "Hash": "U70zBtxOB9KkTd222ulTl/CrmF8zuqk6B3SslEPsw0U=",
   "Source": "myportfolio",
   "BasePath": "_content/myportfolio",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c9j57ouvsm",
-      "Integrity": "QKi3nm69YTvpUQWmgUGVwhOcY4hA85M/yj4TwDPVE1o=",
+      "Fingerprint": "ozpvoo78wx",
+      "Integrity": "VH08lg1BIh0rVhLVJlvbxSKCDgJX1BNTk10wHOSeCoE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1321,51 +1321,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c9j57ouvsm.css",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\MY-DEVOPS WORK-APPS\\myportfolio\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2135"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QKi3nm69YTvpUQWmgUGVwhOcY4hA85M/yj4TwDPVE1o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Feb 2025 12:42:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c9j57ouvsm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QKi3nm69YTvpUQWmgUGVwhOcY4hA85M/yj4TwDPVE1o="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Admin\\Desktop\\MY-DEVOPS WORK-APPS\\myportfolio\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1376,7 +1331,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2135"
+          "Value": "3487"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +1339,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QKi3nm69YTvpUQWmgUGVwhOcY4hA85M/yj4TwDPVE1o=\""
+          "Value": "\"VH08lg1BIh0rVhLVJlvbxSKCDgJX1BNTk10wHOSeCoE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Feb 2025 12:42:21 GMT"
+          "Value": "Wed, 19 Feb 2025 13:00:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,7 +1353,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QKi3nm69YTvpUQWmgUGVwhOcY4hA85M/yj4TwDPVE1o="
+          "Value": "sha256-VH08lg1BIh0rVhLVJlvbxSKCDgJX1BNTk10wHOSeCoE="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ozpvoo78wx.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MY-DEVOPS WORK-APPS\\myportfolio\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VH08lg1BIh0rVhLVJlvbxSKCDgJX1BNTk10wHOSeCoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 13:00:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ozpvoo78wx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VH08lg1BIh0rVhLVJlvbxSKCDgJX1BNTk10wHOSeCoE="
         }
       ]
     },

@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -19,30 +20,35 @@ html {
 
 body {
   margin-bottom: 60px;
-  background-color: rgb(234,226,183);
+  background-color: #ea9;
 }
 
-.logo-text .main-text .letterN{
+header nav .navbar {
+  color: black;
+  background-color: #222;
+}
+
+.logo-text .main-text .letterN {
   color: #f77f00;
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-nav {
-  flex-direction: column; /* Change direction to column for full-screen menu */
+  flex-direction: column; /* Full-screen menu */
   align-items: center;
   justify-content: center;
-  height: 100%; /* Ensure it takes the full height */
+  height: 100%; /* Full height */
 }
 
 .nav-link {
   padding-right: 1rem;
   padding-left: 1rem;
-  color: white; /* Ensure links are visible against the dark background */
+  color: white; /* Visible links */
 }
 
 .nav-link:hover {
-  color: #f77f00; /* Change color on hover for better visibility */
+  color: #f77f00; /* Hover effect */
 }
 
 /* Ensure navbar is always collapsed */
@@ -62,7 +68,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(34, 34, 34);
+  background-color: #222;
   z-index: 1050;
   overflow: auto;
   transform: translateX(0);
@@ -78,6 +84,37 @@ body {
   transition: all 0.3s ease;
 }
 
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-toggler-icon::after {
+  top: 8px;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  background-color: transparent;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
 
 /* Close button */
 .navbar-close {
@@ -103,7 +140,7 @@ footer {
 .navbar-toggler {
   font-size: 20px;
   font-weight: bold;
-  color: #333;
+  color: #ea9;
   background-color: transparent;
   border: none;
   outline: none;
@@ -111,4 +148,58 @@ footer {
 
 .navbar-toggler:hover {
   color: #f77f00;
+}
+
+/* Styles for logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.database-icon {
+  width: 30px;
+  height: 40px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.database-icon::before,
+.database-icon::after,
+.database-icon .disk {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 8px;
+  background-color: #ea9;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.database-icon::before {
+  top: 0;
+}
+
+.database-icon::after {
+  bottom: 0;
+}
+
+.database-icon .disk {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  color: #ea9;
+}
+
+.logo-text .main-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo-text .sub-text {
+  font-size: 14px;
+  font-weight: bold;
 }
