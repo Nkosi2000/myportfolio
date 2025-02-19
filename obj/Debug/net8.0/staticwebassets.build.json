@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7ZFbYzGtNWZZHYd1IpigSiQbodqHtKr2vDzU+mTR+MM=",
+  "Hash": "soNyYFLrqTW1Vj7WWTlOTumwetgApkaKw44VgiAoEHw=",
   "Source": "myportfolio",
   "BasePath": "_content/myportfolio",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "y5kfzd950v",
-      "Integrity": "KsWOStB2qrvOssSHiyGADjvx41wj68fEy4kun7lgjIA=",
+      "Fingerprint": "c9j57ouvsm",
+      "Integrity": "QKi3nm69YTvpUQWmgUGVwhOcY4hA85M/yj4TwDPVE1o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1321,6 +1321,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.c9j57ouvsm.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MY-DEVOPS WORK-APPS\\myportfolio\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QKi3nm69YTvpUQWmgUGVwhOcY4hA85M/yj4TwDPVE1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 11:54:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c9j57ouvsm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QKi3nm69YTvpUQWmgUGVwhOcY4hA85M/yj4TwDPVE1o="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Admin\\Desktop\\MY-DEVOPS WORK-APPS\\myportfolio\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1331,7 +1376,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2646"
+          "Value": "2135"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1384,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KsWOStB2qrvOssSHiyGADjvx41wj68fEy4kun7lgjIA=\""
+          "Value": "\"QKi3nm69YTvpUQWmgUGVwhOcY4hA85M/yj4TwDPVE1o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Feb 2025 08:51:37 GMT"
+          "Value": "Wed, 19 Feb 2025 11:54:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,52 +1398,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KsWOStB2qrvOssSHiyGADjvx41wj68fEy4kun7lgjIA="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.y5kfzd950v.css",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\MY-DEVOPS WORK-APPS\\myportfolio\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2646"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KsWOStB2qrvOssSHiyGADjvx41wj68fEy4kun7lgjIA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Feb 2025 08:51:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "y5kfzd950v"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KsWOStB2qrvOssSHiyGADjvx41wj68fEy4kun7lgjIA="
+          "Value": "sha256-QKi3nm69YTvpUQWmgUGVwhOcY4hA85M/yj4TwDPVE1o="
         }
       ]
     },
