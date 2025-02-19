@@ -1,4 +1,11 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿$(document).ready(function () {
+    $('.navbar-toggler').on('click', function () {
+        $(this).toggleClass('collapsed');
+        $('.navbar-collapse').toggleClass('show');
+    });
 
-// Write your JavaScript code.
+    $('.navbar-close').on('click', function () {
+        $('.navbar-toggler').addClass('collapsed');
+        $('.navbar-collapse').removeClass('show');
+    });
+});
